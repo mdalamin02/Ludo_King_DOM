@@ -1,0 +1,109 @@
+#html,
+body {
+  background-color: rgba(180, 171, 171, 0.267);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+.container {
+  max-width: 760px;
+  min-width: 360px;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.rolling {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.fa-solid {
+  color: tomato;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.play-btn {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #ff7e31, #e62c03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow 0.2s;
+  font-size: large;
+  font-weight: 500;
+}
+.play-btn:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+.rollling-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#score {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+  color: #1a7017;
+
+  
+}#score {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+  color: #1a7017;
+
+  
+}
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+#totalSum {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+  color: #f30c0c;
+
+}
